@@ -3,7 +3,7 @@
 This repository contains a complete molecular dynamics (MD) simulation workflow for a 1 M LiPF₆–Ethylene Carbonate (EC) bulk electrolyte system using GROMACS.  
 The study focuses on understanding ion–solvent interactions, solvation structure, and transport properties that are critical for Lithium-ion battery electrolytes.
 
----
+
 
 ## Project Overview
 
@@ -16,25 +16,6 @@ The results provide insight into:
 - Ion-pair interactions  
 - Transport phenomena, including diffusion  
 
----
-
-## Repository Structure
-├── Molecular Stimulation Flow Diagram/
-│ └── WorkFlow.png
-├── Results/
-│ ├── LiPF6_EC_Density_Profile.png
-│ ├── LiPF6_EC_Dipole_Moment.png
-│ ├── Lithium ion_Mean_Square_Displacement.png
-│ ├── NPT_Equilibration.png
-│ ├── NVT_Equilibration.png
-│ ├── Radial_Distribution_Function_EC.png
-│ └── Radial_Distribution_Function_LiPF6.png
-├── input_files/
-├── mdp_files/
-├── scripts/
-└── README.md
-
----
 
 ## Workflow Description
 
@@ -64,7 +45,7 @@ Computed properties include:
 - Radial Distribution Functions (RDFs)  
 - Mean Square Displacement (MSD)  
 
----
+
 
 ## Results
 
@@ -102,9 +83,9 @@ The RDF analysis reveals:
 
 The MSD profile is used to compute the self-diffusion coefficient of Li⁺ ions within the EC medium.
 
----
 
-## Scientific Conclusion
+
+## Conclusion
 
 The molecular dynamics simulation successfully captures the structural and dynamic characteristics of a 1 M LiPF₆–EC electrolyte.  
 Key findings include:
@@ -115,17 +96,6 @@ Key findings include:
 
 These results provide valuable insight into electrolyte behavior relevant to Li-ion battery performance and can serve as a foundation for future studies on alternative solvents, additives, or salt chemistries.
 
----
-
-## Author Contribution
-
-- Developed the complete MD simulation workflow using GROMACS on Linux.  
-- Performed NVT and NPT equilibration and production MD simulations.  
-- Constructed the molecular system and initialized force fields.  
-- Computed and analyzed RDFs, dipole moment, density evolution, ion-pair behavior, and MSD.  
-- Gained experience in molecular dynamics, electrolyte modeling, and analysis of transport and structural properties.
-
----
 
 ## Tools and Software
 
@@ -133,12 +103,6 @@ These results provide valuable insight into electrolyte behavior relevant to Li-
 - Python (MDAnalysis, NumPy, Matplotlib)  
 - Ubuntu Linux  
 - OPLS-AA all-atom force field  
-
----
-
-## Contact
-
-For scientific discussion, collaboration, or clarification, please feel free to reach out.
 
 
 
